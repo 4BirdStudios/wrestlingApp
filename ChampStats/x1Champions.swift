@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  1xChampions.swift
 //  ChampStats
 //
 //  Created by Andrew Weaver on 6/4/17.
@@ -9,15 +9,13 @@
 import UIKit
 import SwiftyJSON
 
-class ViewController: UIViewController {
-
+class x1Champions : UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        parseJSON()
-
+    parseJSON()
     }
-    
     
     func parseJSON (){
         
@@ -33,12 +31,11 @@ class ViewController: UIViewController {
         NSLog("\(Name)")
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
-
